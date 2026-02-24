@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index2.html">Home</a>
+    </nav>
+    <header>
+        <h1>Pertemuan 3</h1>
+    </header>
+    <section>
+        <article>
+            <p>Selamat datang di pertemuan 3</p>
+        </article>
+    </section>
+
+        <footer>
+            <p>Copyright &copy; 2026</p>
+        </footer>
+
+        <input type="text"><br>
+        <input type="number"><br>
+        <input type="email"><br>
+        <input type="password"><br>
+        <input type="chechbox"><br>
+        <input type="file">
+
+        <form action="#" method="post" target="blank">
+            <label for="name"> Nama</label>
+            <input type="text" id="name" name="nama" placeholder="masukkan nama"><br>
+            <label for="password">password: </label>
+            <input type="password" id="password" name="password"><br>
+
+            <select name="kelas" id="kelas">
+                <option value="ilmu komputer">ilmu komputer</option>
+                <option value="sistem informasi">sistem informasi</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
+
+-tugas1-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Form Kehadiran Praktikum</h1>
+    </header>
+    <form action="#" method="post" target="blank">
+        <label for="name"> Nama: </label>
+        <input type="text" id="name" name="nama" placeholder="masukkan nama"><br>
+        <label for="number">NPM: </label>
+        <input type="number" id="number" name="NPM" placeholder="maukkan npm"><br>
+        <label for="kelas" > Kelas: </label>
+            <select name="kelas" id="kelas" aria-placeholder="pilih kelas">
+                <option selected disabled>pilih Kelas</option>
+                <option value="ilmu komputer">ilmu komputer</option>
+                <option value="sistem informasi">sistem informasi</option>
+            </select><br>
+        <label for="date" >Tanggal:</label>
+        <input type="date" name="Tanggal" id="Tanggal"><br>
+        <label for="time">Waktu: </label>
+        <input type="time" name="waktu" id="waktu"><br>
+        
+        
+        <input type="submit" value="Submit">
+
+</body>
+</html>
