@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Linktree Khalisha</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: pink;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: pink;
+      padding: 30px;
+      border-radius: 20px;
+      width: 330px;
+      text-align: center;
+      box-shadow: 0 15px 20px #14141466;
+    }
+
+    .profile {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: white;
+    }
+
+    .bio {
+      color: #e7213f;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      background: linear-gradient(70deg, #ffa2c4, #e83095);
+      color: white;
+      padding: 10px;
+      border-radius: 8px;
+      margin: 8px 0;
+      transition: 1.0s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .btn.merah {
+      background: linear-gradient(45deg, #ff4d5a, #e84b4b);
+    }
+
+    h4 {
+      color: white;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 180px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .small {
+      font-size: 12px;
+      color: #e83095;
+      margin-top: 5px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="card">
+
+    <img src="carmen.jpg" class="profile">
+
+    <h2>Halo ini Khalisha</h2>
+    <p class="bio">Suka Tidur | Suka Makan | Suka Apa Aja</p>
+
+    <a href="https://github.com/Khalishazahwa15" target="_blank" class="btn">GitHub </a>
+    <a href="linkIn" class="btn">LinkedIn</a>
+    <a href="https://instagram.com/klisaza" target="_blank" class="btn">Instagram</a>
+    <a href="https://wa.me/6285783399214" target="_blank" class="btn merah">Connect Yuk</a>
+
+    <h4>Jangan Perang Dulu Pliss</h4>
+
+    <div class="video">
+      <iframe 
+        src="https://www.youtube.com/embed/nd1Q0KxWxw8?si=cjlNkLMaiL-xqct4" 
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p class="small">Jangan lupa bernafas!!</p>
+    <p class="small">Semangat Ngodingnya sahabat</p>
+
+  </div>
+
+</body>
+</html>
